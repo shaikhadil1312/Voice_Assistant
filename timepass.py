@@ -7,10 +7,10 @@ import sys
 import requests
 import eel
 
-# Initialize eel
+
 eel.init("www")
 
-# Initialize speech engine and recognizer
+
 engine = pyttsx3.init()
 r = sr.Recognizer()
 voices = engine.getProperty('voices')
